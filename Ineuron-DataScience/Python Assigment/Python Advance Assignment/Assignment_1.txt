@@ -1,0 +1,68 @@
+1. What is the purpose of Python&#39;s OOP?
+
+It uses objects and classes in programming. 
+It aims to implement real-world entities like inheritance, polymorphisms,encapsulation, etc. in the programming.
+The main concept of OOPs is to bind the data and the functions that work on that together as a single unit so that 
+no other part of the code can access this data. 
+
+2.Where does an inheritance search look for an attribute?
+
+The whole point of a namespace tool like the class statement is to support name inheritance. In Python, 
+inheritance happens when an object is qualified, and involves searching an 
+attribute definition tree (one or more namespaces). Every time you use an expression of the form object.
+
+3.How do you distinguish between a class object and an instance object?
+
+Class Object:-
+when we create a class in python then a class object is created so whenever python finds a 
+class statement in the whole program then it creates a class object and 
+assigns a name to that object i.e. class name. 
+As we know in python, everything is an object so the class itself is an object and 
+is the instance of metaclasses. Look at the following example
+ex---
+class MyClass:
+ pass
+
+
+Instance object
+when we call a class, it creates an instance object of that class from which the object has been created. 
+For example when we call the above-created class then it will create an instance object like this.
+Obj1=MyClass()
+the above statement creates an object and names it to Obj1 which is an instance of MyClass.
+
+
+4.What makes the first argument in a class’s method function special?
+
+meth(args) becomes Class.
+This is the reason the first parameter of a function in class must be the object itself. 
+Writing this parameter as self is merely a convention.
+
+5.What is the purpose of the __init__ method?
+The __init__ method is the Python equivalent of the C++ constructor in an object-oriented approach. 
+The __init__ function is called every time an object is created from a class. 
+The __init__ method lets the class initialize the object's attributes and serves no other purpose. 
+It is only used within classes.
+
+6.What is the process for creating a class instance?
+
+Use the class name to create a new instance
+Call ClassName() to create a new instance of the class ClassName . To pass parameters to the class instance, 
+the class must have an __init__() method. Pass the parameters in the constructor of the class.
+
+
+7.What is the process for creating a class?
+
+A Class is like an object constructor, or a "blueprint" for creating objects.
+Create a Class. To create a class, use the keyword class : ...
+Create Object. Now we can use the class named MyClass to create objects: ...
+The self Parameter.
+Modify Object Properties. 
+Delete Object Properties. 
+Delete Objects.
+
+8.How would you define the superclasses of a class?
+
+A superclass is the class from which many subclasses can be created. The subclasses 
+inherit the characteristics of a superclass. The superclass is also known as the parent class or base class.
+
+ex- Vehicle is a superclass and truck, bike, motorcycle, car are its subclasses
